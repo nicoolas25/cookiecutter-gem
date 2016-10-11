@@ -7,9 +7,9 @@ Rake::TestTask.new(:test) do |t|
   t.test_files = FileList['test/**/*_test.rb']
 end
 
-task :coverage do |t|
+task :coverage do
   ENV["COVERAGE"] = "on"
   Rake::Task["test"].invoke
 end
 
-task :default => :test
+task default: :test
