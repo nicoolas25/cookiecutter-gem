@@ -1,0 +1,8 @@
+{
+  "project_name": "example_gem",
+  "module_name": "ExampleGem",
+  "ruby_version": "2.3",
+  "full_name": "Firstname Lastname",
+  "email": "name@example.com",
+  "github_username" : "example_user"
+}
